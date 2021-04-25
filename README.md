@@ -1,6 +1,6 @@
 # Expo React Native PWA ⚡️ 
 
-## PWA using Ex
+## PWA using Expo
 
 <h2 align="center">
   <img src="https://github.com/aton-py/expo-native-camera-api-request/blob/main/snapshot.png" alt="Expo" width="600px" />
