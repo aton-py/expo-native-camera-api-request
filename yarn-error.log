@@ -1,0 +1,79 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\55339\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\erl10.3\bin;C:\Program Files (x86)\Elixir\bin;C:\Users\55339\.mix\escripts;C:\Ruby27-x64\bin;C:\Users\55339\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2\bin;C:\Users\55339\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;C:\Users\55339\AppData\Local\Android\Sdk\platform-tools;C:\Users\55339\AppData\Local\Android\Sdk\tools\bin;C:\tools\dart-sdk\bin;C:\Users\55339\AppData\Roaming\Pub\Cache\bin;C:\tools\dart-sdk;C:\bin;ENABLE_FLUTTER_DESKTOP=true;C:\Users\55339\.dotnet\tools;C:\Program Files\Java\jdk-15.0.1;C:\Users\55339\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\55339\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (node:events:485:28)
+      at ClientRequest.emit (node:events:379:20)
+      at TLSSocket.emitRequestTimeout (node:_http_client:812:9)
+      at Object.onceWrapper (node:events:485:28)
+      at TLSSocket.emit (node:events:391:22)
+      at TLSSocket.Socket._onTimeout (node:net:482:8)
+      at listOnTimeout (node:internal/timers:556:17)
+      at processTimers (node:internal/timers:499:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "test": "jest --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^12.0.0",
+      "@react-native-community/masked-view": "0.1.10",
+      "@react-navigation/bottom-tabs": "5.11.2",
+      "@react-navigation/native": "~5.8.10",
+      "@react-navigation/stack": "~5.12.8",
+      "expo": "~41.0.1",
+      "expo-asset": "~8.3.1",
+      "expo-constants": "~10.1.3",
+      "expo-font": "~9.1.0",
+      "expo-linking": "~2.2.3",
+      "expo-splash-screen": "~0.10.2",
+      "expo-status-bar": "~1.0.4",
+      "expo-web-browser": "~9.1.0",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+      "react-native-reanimated": "~2.1.0",
+      "react-native-gesture-handler": "~1.10.2",
+      "react-native-safe-area-context": "3.2.0",
+      "react-native-screens": "~3.0.0",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "@types/react": "~16.9.35",
+      "@types/react-native": "~0.63.2",
+      "jest-expo": "~41.0.0",
+      "typescript": "~4.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
